@@ -1,0 +1,22 @@
+name: Mi tema
+description: Tema de ejemplo
+type: theme
+base theme: false
+core_version_requirement: ^10 || ^11 
+
+libraries:
+  - portal_biblioteca/mibiblioteca
+  - portal_biblioteca/bootstrap
+
+regions:
+  navegacion: 'Menú de navegación'
+  content: 'Contenido principal'
+  banner: 'Encabezado'
+  acerca_de: 'Acerca de nosotros'
+  libros: 'Libros recientes publicados'
+  categorias: 'Categorías de libros'
+  noticias: 'Últimas noticias'
+  posts: 'Opiniones de colaboradores'
+  boletin: 'Boletin de suscripcion'
+  footer: 'Pie de página'
+ 
